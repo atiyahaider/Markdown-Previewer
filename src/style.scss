@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: box-border;
+}
+
+#app{
+  background-image: linear-gradient(to bottom right, #3399ff, white);
+}
+
+.row{
+  text-align: center;
+  color: #404040;
+  text-shadow: 3px 3px 3px white;
+}
+
+#preview{
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+  height: 100vh;
+  box-shadow: 4px 4px 15px gray;
+}
+
+#editor-div{
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 15px gray;
+}
+
+#editor{
+  height: 100vh;
+  font-family: monospace;
+}
+
+#footer{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 0.95em;
+  p{
+    margin: 0;
+  }
+}
